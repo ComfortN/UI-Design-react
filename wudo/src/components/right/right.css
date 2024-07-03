@@ -1,0 +1,126 @@
+.right{
+    width: 350px;
+    color: gray;
+    
+}
+
+h2 {
+    color: #000;
+}
+
+
+.star{
+    color: orange;
+    padding-top: 10px;
+}
+
+
+.radioButtons {
+    padding-top: 20px;
+}
+
+
+.radioBtnGrey {
+    color: rgb(167, 168, 166);
+    cursor: pointer;
+}
+
+
+.radioBtnBlue {
+    color: navy;
+}
+
+
+.productInfo {
+    width: 350px;
+    border: 100cap;
+    border-color: black;
+}
+
+
+.productTable {
+    display: flex;
+}
+
+table {
+    border-collapse: collapse;
+    /* border-spacing: 0; */
+    width: 60%;
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    position: relative;
+}
+
+td:first-child {
+    /* content: ''; */
+    position: relative;
+    /* right: -10px; */
+    top: 25%;
+    bottom: 25%;
+    /* width: 1px; */
+    border-right: 1px solid black;
+    /* padding-right: 20px; */
+}
+
+
+.productTable, p {
+    margin-top: 20px;
+    padding-left: 10px;
+    text-decoration: underline;
+}
+
+
+
+.quantityAdd {
+    display: flex;
+    margin-top: 25px;
+    padding-left: 10px;
+}
+
+.remove {
+    width: 45px;
+    border-radius: 15%;
+    background: transparent;
+}
+
+
+.add {
+    width: 45px;
+    border-radius: 15%;
+    background: black;
+    color: white;
+    margin-left: 35px;
+}
+
+.quantityAdd p {
+    padding-bottom: 5px;
+}
+
+
+.cartBuyBtn {
+    display: flex;
+    margin-top: 50px;
+    padding-left: 10px;
+}
+
+
+.addToCart {
+    width: 150px;
+    height: 60px;
+    border-radius: 10%;
+    background-color: white;
+    border: none;
+}
+
+.buyNow {
+    width: 150px;
+    height: 60px;
+    border-radius: 10%;
+    background: black;
+    color: white;
+    margin-left: 35px;
+}

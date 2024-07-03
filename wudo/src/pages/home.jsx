@@ -5,7 +5,7 @@ import Right from '../components/right/right'
 
 export default function Home() {
     return (
-        <div className="home">Home
+        <div className="home">
         
         <Navbar/>
         <div className="home-wrapper">

@@ -1,0 +1,76 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 8%;
+}
+
+
+.navLogo {
+    width: 88px;
+    cursor: pointer;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    margin-left: 650px;
+}
+
+.navLi {
+    margin-right: 20px;
+    cursor: pointer;
+    
+}
+
+
+.navLi :hover {
+    color: white;
+}
+
+
+.navIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.cart {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.navCart {
+   position: relative; 
+}
+
+.cartLabel {
+    background: red;
+    color: white;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 12px;
+    height: 12px;
+    font-size: 12px;
+    position: absolute;
+    top: 0;
+    right: 2;
+    padding-left: 4px;
+    padding-bottom: 13px;
+
+}
+
+
+.navSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navSearchIcon {
+    margin-left: 25px;
+    cursor: pointer;
+}

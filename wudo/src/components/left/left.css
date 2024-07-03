@@ -1,0 +1,41 @@
+.left {
+    height: 100vh;
+    width: 350px;
+    /* padding: 0 8%; */
+    padding-right: 8%;
+    margin-right: 100px;
+}
+
+.leftTopImg{
+    width: 400px;
+}
+
+
+/* .leftBottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.bottomBoxes {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    
+}
+
+.bottomBox{
+    width: 180px;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 30px;
+}
+
+
+.bottomImg {
+    width: 140px;
+}
