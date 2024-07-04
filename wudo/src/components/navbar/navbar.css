@@ -14,7 +14,7 @@
 .navlist {
     list-style: none;
     display: flex;
-    margin-left: 650px;
+    margin-left: auto;
 }
 
 .navLi {

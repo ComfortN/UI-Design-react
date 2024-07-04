@@ -1,5 +1,4 @@
 import './right.css'
-import StarBorderOutlinedIcon from '@mui/icons-material/StarBorderOutlined';
 import StarOutlinedIcon from '@mui/icons-material/StarOutlined';
 import RadioButtonCheckedOutlinedIcon from '@mui/icons-material/RadioButtonCheckedOutlined';
 
@@ -7,7 +6,7 @@ import RadioButtonCheckedOutlinedIcon from '@mui/icons-material/RadioButtonCheck
 export default function right() {
   return (
     <div className="right">
-      <p>PREMIUM CHAIRS</p>
+      <p className='right-text'>PREMIUM CHAIRS</p>
       <h2>Drop type cusion chair</h2>
 
       <div className="reviews">
@@ -34,21 +33,21 @@ export default function right() {
         <div className="productTable">
           <table>
             <tr>
-              <td>HEIGHT <br></br><span>52cm</span></td>
-              <td>WIDTH <br></br> <span>43cm</span></td>
+              <td>HEIGHT <br></br><span><strong>52 </strong></span>cm</td>
+              <td>WIDTH <br></br> <span><strong>43 </strong></span>cm</td>
             </tr>
           </table>
 
-          <p>view in inches</p>
+          <p className='inches'>view in inches</p>
 
           
         </div>
 
-        <p>$265.50</p>
+        <p className='price'><strong>$265.50</strong></p>
 
         <div className="quantityAdd">
           <button className='remove'> - </button>
-          <p> 1 </p>
+          <p className='cartNum'> 1 </p>
           <button className='add'> + </button>
         </div>
 
