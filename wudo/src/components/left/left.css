@@ -1,54 +1,71 @@
 .left {
-    height: 100vh;
+
     width: 350px;
-    /* padding: 0 8%; */
-    /* padding-right: 8%; */
-    /* margin-right: 100px; */
+
 }
 
 .leftTopImg{
-    width: 400px;
+    width: 300px;
 }
 
-
-/* .leftBottom {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
 
 .bottomBoxes {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
+    gap: 15px;
     
 }
 
 .bottomBox{
-    width: 180px;
-    height: 140px;
+    width: 100px;
+    height: 100px;
     display: flex;
+    
     align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    margin-right: 30px;
+    justify-content: space-between;
+    
+
 }
 
 
 .bottomImg {
-    width: 140px;
+    width: 130px;
+    height: 110px;
+    border-radius: 15%;
+    box-shadow: 0  5px 15px rgba(0, 0, 0, 0.2);
 }
 
 
+.line-container {
+    position: relative;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .horizontal-line {
-    border-top: 2px dotted black;
-    /* position: absolute; */
-    list-style: none;
+    border-top: 3px dotted grey;
+    position: absolute;
     top: 50%;
-    left: 0;
-    right: 0;
-    width: 50%;
+    height: 20px;
+    width: 70%;
     align-items: center;
+}
+
+
+.button-container {
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+
+.radioBtnGrey {
+    color: blue;
 }

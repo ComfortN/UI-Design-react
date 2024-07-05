@@ -1,10 +1,8 @@
 .right{
-    width: 27%;
+    width: 350px;
     color: gray;
-    /* margin-top: 0; */
-    padding-bottom: 10%;
-    
 }
+
 
 h2 {
     color: #000;
@@ -35,27 +33,29 @@ h2 {
 
 .productInfo {
     width: 350px;
-    border: 100cap;
-    border-color: black;
     margin-top: 15px;
 }
 
 
 .productTable {
     display: flex;
-    margin-top: 35px;
+    margin-top: 35px;    
 }
+
 
 span {
     color: black;
 }
 
+
 table {
     border-collapse: collapse;
-    /* border-spacing: 0; */
+    border-spacing: 0;
     width: 60%;
-    border: 1px solid black;
+    border: 2px solid grey;
+
 }
+
 
 td {
     padding: 10px;
@@ -63,15 +63,12 @@ td {
     position: relative;
 }
 
+
 td:first-child {
-    /* content: ''; */
     position: relative;
-    /* right: -10px; */
     top: 25%;
     bottom: 25%;
-    /* width: 1px; */
-    border-right: 1px solid black;
-    /* padding-right: 20px; */
+    border-right: 2px solid grey;
 }
 
 
@@ -82,6 +79,7 @@ td:first-child {
     margin-top: 25px;
 }
 
+
 .inches {
     margin-top: 20px;
     padding-left: 10px;
@@ -90,12 +88,12 @@ td:first-child {
 }
 
 
-
 .quantityAdd {
     display: flex;
     margin-top: 25px;
-    /* padding-left: 10px; */
+
 }
+
 
 .remove {
     width: 45px;
@@ -111,25 +109,19 @@ td:first-child {
     border-radius: 15%;
     background: black;
     color: white;
-    /* margin-left: 35px; */
-}
 
-/* .quantityAdd p {
-    padding-bottom: 5px;
-} */
+}
 
 
 .cartNum {
-    /* padding-bottom: 5px; */
-    padding: 20px;
+    margin: 25px;
 }
 
 
 .cartBuyBtn {
     display: flex;
-    /* margin: 50px; */
-    /* margin-top: 50px; */
-    /* padding-left: 10px; */
+    justify-content: space-between;
+
 }
 
 
@@ -144,9 +136,8 @@ td:first-child {
 .buyNow {
     width: 150px;
     height: 60px;
-    border-radius: 10%;
+    border-radius: 12%;
     background: black;
     color: white;
-    margin-left: 35px;
     border: none;
 }

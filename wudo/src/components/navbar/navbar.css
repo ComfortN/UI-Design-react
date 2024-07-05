@@ -15,6 +15,7 @@
     list-style: none;
     display: flex;
     margin-left: auto;
+    color: grey;
 }
 
 .navLi {

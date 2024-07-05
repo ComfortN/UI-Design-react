@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins' , sans-serif;
+    font-family: 'Poppins';
 
 }
 
@@ -18,7 +18,7 @@
         #fff 0%,
         #fff 50%,
         #E7EFF3 50%,
-        #E7EFF3 100%
+        #E7EFF3 0%
     );
 }
 
