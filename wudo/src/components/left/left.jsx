@@ -6,7 +6,7 @@ export default function left() {
     <div className="left">
 
       <div className="leftTop">
-        <img src = "./assets/images/drop-cishio-chair1.jpg" alt=""className="leftTopImg"></img>
+        <img src = "./assets/images/drop-cishio-chair1-removebg-preview.png" alt=""className="leftTopImg"></img>
       </div>
 
       <div className="middle">
