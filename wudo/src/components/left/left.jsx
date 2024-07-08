@@ -11,7 +11,7 @@ export default function left() {
 
       <div className="middle">
 
-        <div class="line-container">
+        {/* <div class="line-container">
 
           <div class="horizontal-line"></div>
 
@@ -19,7 +19,10 @@ export default function left() {
             <RadioButtonCheckedOutlinedIcon className='radioBtnGrey' />
             <p className='rotate'>Rotate</p>
           </div>
-        </div>
+        </div> */}
+        <svg width="400" height="200" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10,110 C150,190 250,190 390,100" stroke="grey" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+      </svg>
 
       </div>
       <div className="leftBottom">

@@ -3,13 +3,13 @@
     width: 50%;
     height: 100vh;
     padding: 0 8%;
+    justify-content: center;
 
 
 }
 
 .leftTop {
-    align-self: center;
-    padding: 0 8%;
+    justify-content: center;
 }
 
 .leftTopImg{
@@ -20,7 +20,7 @@
 .bottomBoxes {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     gap: 15px;
     
 }
@@ -29,9 +29,9 @@
     max-width: 100px;
     height: 100px;
     display: flex;
-    margin: 10px 0 0 0;
+    /* margin: 10px 0 0 0; */
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     
 
 }
