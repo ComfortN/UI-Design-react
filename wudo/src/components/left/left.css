@@ -1,7 +1,15 @@
 .left {
 
-    width: 350px;
+    width: 50%;
+    height: 100vh;
+    padding: 0 8%;
 
+
+}
+
+.leftTop {
+    align-self: center;
+    padding: 0 8%;
 }
 
 .leftTopImg{
@@ -21,7 +29,7 @@
     max-width: 100px;
     height: 100px;
     display: flex;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
     align-items: center;
     justify-content: space-between;
     

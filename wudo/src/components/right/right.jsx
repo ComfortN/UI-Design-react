@@ -1,7 +1,6 @@
 import './right.css'
-import StarOutlinedIcon from '@mui/icons-material/StarOutlined';
-import RadioButtonCheckedOutlinedIcon from '@mui/icons-material/RadioButtonCheckedOutlined';
-
+import { FaStar } from "react-icons/fa";
+import { IoIosRadioButtonOn } from "react-icons/io";
 
 export default function right() {
   return (
@@ -11,16 +10,16 @@ export default function right() {
         <h2>Drop type cusion chair</h2>
 
         <div className="reviews">
-          <StarOutlinedIcon className='star'/>
+          <FaStar  className='star'/>
           <label className='review'>
-          <strong>8/10.  </strong> 
+          <strong>  8/10.  </strong> 
           15 Rewiews 
           </label>
         </div>
 
         <div className="radioButtons">
-          <RadioButtonCheckedOutlinedIcon className='radioBtnGrey' />
-          <RadioButtonCheckedOutlinedIcon className='radioBtnBlue'/>
+          <IoIosRadioButtonOn className='radioBtnGrey' />
+          <IoIosRadioButtonOn className='radioBtnBlue' />
         </div>
 
 

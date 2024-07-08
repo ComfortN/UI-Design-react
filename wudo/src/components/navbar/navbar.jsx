@@ -1,6 +1,6 @@
 import "./navbar.css";
-import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
+import { CiSearch } from "react-icons/ci";
+import { PiShoppingCartSimpleLight } from "react-icons/pi";
 
 export default function Navbar() {
     return (
@@ -18,11 +18,11 @@ export default function Navbar() {
 
             <div className="navIcons">
                 <div className="navSearch">
-                    <SearchOutlinedIcon className="navSearchIcon" />
+                    <CiSearch className="navSearchIcon" />
                 </div>
 
                 <div className="navCart">
-                    <ShoppingCartOutlinedIcon className="cart" />
+                    <PiShoppingCartSimpleLight className="cart" />
                     <label className="cartLabel">1</label>
                 </div>
 
