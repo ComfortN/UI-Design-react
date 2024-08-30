@@ -25,7 +25,9 @@
 }
 
 
-.navLi :hover {
+.navLi:hover {
+    padding: 10px 20px;
+    background-color: black;
     color: white;
 }
 
@@ -74,4 +76,42 @@
 .navSearchIcon {
     margin-left: 25px;
     cursor: pointer;
+}
+
+.navlist.show {
+    display: flex;
+}
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+    
+    .navlist {
+        display: none;
+        position: absolute;
+        top: 50px;
+        right: 8%;
+        background-color: white;
+        width: 50%;
+        border-radius: 8px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .navLi:hover {
+        padding: 10px 20px;
+        background-color: black;
+        color: white;
+    }
+
+    .navlist.show {
+        display: flex;
+        flex-direction: column;
+    }
 }
