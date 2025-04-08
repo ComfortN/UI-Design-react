@@ -74,15 +74,11 @@ cd UI-Design-react/wudo
 2. Install dependencies:
 ```bash
 npm install
-# or
-yarn install
 ```
 
 3. Start the development server:
 ```bash
 npm start
-# or
-yarn start
 ```
 
 The application should now be running on [http://localhost:3000](http://localhost:3000)
